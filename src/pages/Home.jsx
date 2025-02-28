@@ -7,11 +7,12 @@ const Home = () => {
   return (
     <div className="flex flex-col md:flex-row bg-white pt-5 pl-5 lg:pl-16 lg:pt-20 md:pt-10 md:pl-10 rounded-lg mx-auto gap-20">
       {/* Left Section - 40% */}
-      <div className="md:w-2/5 flex flex-col justify-center -mt-16">
+      <div className="md:w-2/5 flex flex-col justify-center mt-0 md:mt-0 lg:-mt-16">
         <div className="space-y-5">
-          <h1 className="text-5xl lg:text-4xl md:text-4xl font-bold">
-            We build your dream house with our passion
-          </h1>
+          <h2 className="text-3xl lg:text-[45px] leading-3 md:leading-3 lg:leading-[40px] md:text-4xl font-bold w-[500px]">
+            We build your dream  
+          </h2>
+          <h2 className="text-3xl lg:text-[45px]  md:text-4xl font-bold w-[500px]">house with our passion</h2>
           <p className="text-gray-600">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
             imperdiet sed id elementum. Quam vel aliquam vel vulputate.
@@ -38,7 +39,7 @@ const Home = () => {
         </div>
 
         {/* Additional Info Section */}
-        <div className="bg-gray-100 p-4 rounded-xl shadow-md flex mt-6">
+        <div className="bg-gray-100 p-4 rounded-xl shadow-md flex mt-6 md:mt-16 lg:mt-6">
           <div>
             <h3 className="font-bold">Title</h3>
             <p className="text-gray-600 text-sm">
