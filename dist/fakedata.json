@@ -1,0 +1,75 @@
+ [
+      {
+        "id": "1",
+        "estate_title": "Web Development for Beginners",
+        "segment_name": "Web Development",
+        "description": "Comprehensive guide to web development covering HTML, CSS, and JavaScript.",
+        "price": "$50",
+        "status": "available",
+        "duration": "10 hours",
+        "location": "Online",
+        "facilities": ["HTML basics", "CSS styling", "JavaScript fundamentals"],
+        "image": "https://i.ibb.co/HzkS25v/pexels-photo-4665064.webp"
+      },
+      {
+        "id": "2",
+        "estate_title": "Graphic Design Essentials",
+        "segment_name": "Graphic Design",
+        "description": "Learn the fundamentals of graphic design including typography, color theory, and composition.",
+        "price": "$75",
+        "status": "available",
+        "duration": "15 hours",
+        "location": "Online",
+        "facilities": ["Typography", "Color Theory", "Composition"],
+        "image": "https://i.ibb.co/wL75sR9/pexels-photo-326503.webp"
+      },
+      {
+        "id": "3",
+        "estate_title": "Full Stack Development Bootcamp",
+        "segment_name": "Full Stack Development",
+        "description": "Intensive bootcamp covering both front-end and back-end web development.",
+        "price": "$200",
+        "status": "available",
+        "duration": "40 hours",
+        "location": "Online",
+        "facilities": ["Front-end Development", "Back-end Development", "Database Management"],
+        "image": "https://i.ibb.co/nbFHsFB/pexels-photo-1779487.webp"
+      },
+      {
+        "id": "4",
+        "estate_title": "SEO Mastery Course",
+        "segment_name": "SEO",
+        "description": "Master the art of search engine optimization to improve website ranking and visibility.",
+        "price": "$100",
+        "status": "available",
+        "duration": "20 hours",
+        "location": "Online",
+        "facilities": ["Keyword Research", "On-page SEO", "Link Building"],
+        "image": "https://i.ibb.co/vJCY911/pexels-photo-4006158.webp"
+      },
+      {
+        "id": "5",
+        "estate_title": "Exploring Modern UI Design Trends",
+        "segment_name": "UI Design",
+        "description": "Stay updated with the latest trends and best practices in modern UI design.",
+        "price": "$80",
+        "status": "available",
+        "duration": "12 hours",
+        "location": "Online",
+        "facilities": ["UI Trends", "Best Practices", "Design Principles"],
+        "image": "https://i.ibb.co/HzkS25v/pexels-photo-4665064.webp"
+      },
+      {
+        "id": "6",
+        "estate_title": "CSS Preprocessors: Simplifying Stylesheets",
+        "segment_name": "Web Development",
+        "description": "Learn how to use CSS preprocessors like Sass and LESS to write efficient and maintainable stylesheets.",
+        "price": "$60",
+        "status": "available",
+        "duration": "8 hours",
+        "location": "Online",
+        "facilities": ["Sass", "LESS", "Efficient CSS"],
+        "image": "https://i.ibb.co/x1d543x/pexels-photo-12899196.jpg"
+      }
+    ]
+

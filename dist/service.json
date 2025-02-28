@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "name": "Web Development",
+      "service_text": "We provide full-stack web development services to build responsive and robust web applications.",
+      "img": "../src/assets/abou1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mobile App Development",
+      "service_text": "Our team specializes in creating intuitive and high-performing mobile applications for iOS and Android.",
+      "img": "https://app.lottiefiles.com/animation/2b7cf114-c62d-40f4-9ad2-44b7eeef38e8"
+    },
+    {
+      "id": 3,
+      "name": "UI/UX Design",
+      "service_text": "We deliver top-notch UI/UX design services to ensure your product is user-friendly and visually appealing.",
+      "img": "https://app.lottiefiles.com/animation/2b7cf114-c62d-40f4-9ad2-44b7eeef38e8"
+    },
+    {
+      "id": 4,
+      "name": "SEO Optimization",
+      "service_text": "Boost your website's visibility on search engines with our expert SEO optimization services.",
+      "img": "https://app.lottiefiles.com/animation/2b7cf114-c62d-40f4-9ad2-44b7eeef38e8"
+    },
+    {
+      "id": 5,
+      "name": "Digital Marketing",
+      "service_text": "Our digital marketing services help you reach a larger audience and achieve your business goals through effective online strategies.",
+      "img": "https://app.lottiefiles.com/animation/2b7cf114-c62d-40f4-9ad2-44b7eeef38e8"
+    },
+    {
+      "id": 6,
+      "name": "Content Creation",
+      "service_text": "We offer professional content creation services to engage your audience and convey your brand message effectively.",
+      "img": "https://app.lottiefiles.com/animation/2b7cf114-c62d-40f4-9ad2-44b7eeef38e8"
+    }
+  ]
+  
