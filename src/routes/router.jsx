@@ -3,7 +3,8 @@ import Root from '../layout/Root';
 import Home from '../pages/Home';
 import Error from '../pages/Error';
 import Contact from '../pages/Contact';
-import Design1 from '../pages/Design1';
+import Design43 from '../pages/Design43';
+import Design46 from '../pages/Design46';
 
 const router = createBrowserRouter([
   {
@@ -21,8 +22,12 @@ const router = createBrowserRouter([
         element: <Contact></Contact>
       },
       {
-        path: '/design1',
-        element: <Design1></Design1>,
+        path: '/design43',
+        element: <Design43></Design43>,
+      },
+      {
+        path: '/design46',
+        element: <Design46></Design46>,
       },
 
     ]

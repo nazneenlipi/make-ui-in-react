@@ -2,7 +2,7 @@ import React from "react";
 import design1 from "../assets/banner/design1.png";
 import { cardData } from "../lib/data";
 import ellips  from "../assets/banner/Ellipse.png";
-const DesignPage = () => {
+const Design43 = () => {
   return (
     <div className="flex justify-center items-end min-h-screen bg-[#efaf64] relative text-white">
       <div className="container flex flex-col md:flex-row items-center relative z-50">
@@ -54,4 +54,4 @@ const DesignPage = () => {
   );
 };
 
-export default DesignPage;
+export default Design43;
