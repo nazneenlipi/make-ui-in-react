@@ -6,6 +6,7 @@ import Contact from '../pages/Contact';
 import Design43 from '../pages/Design43';
 import Design46 from '../pages/Design46';
 import Design49 from '../pages/Design49';
+import Design47 from '../pages/Design47';
 
 const router = createBrowserRouter([
   {
@@ -30,11 +31,15 @@ const router = createBrowserRouter([
         path: '/design46',
         element: <Design46></Design46>,
       },
-
+      {
+        path: '/design47',
+        element: <Design47></Design47>,
+      },
       {
         path: '/design49',
         element: <Design49></Design49>,
       },
+     
 
     ]
   },

@@ -21,3 +21,11 @@ export const cardData = [
     icon: <Eye size={24} className="text-orange-500" />,
   },
 ];
+
+
+export const titleData = [
+  { id: 1, title: "Title 1", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet sed id elementum.", bgColor: "bg-white" },
+  { id: 2, title: "Title 2", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet sed id elementum.", bgColor: "bg-gray-200" },
+  { id: 3, title: "Title 3", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet sed id elementum.", bgColor: "bg-white" },
+  { id: 4, title: "Title 4", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet sed id elementum.", bgColor: "bg-gray-200" }
+];
