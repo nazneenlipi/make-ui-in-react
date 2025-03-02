@@ -27,5 +27,4 @@ const Design46 = () => {
     </div>
   );
 };
-
 export default Design46;
