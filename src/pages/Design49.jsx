@@ -1,5 +1,5 @@
 import React from 'react';
-
+import picture from "../assets/banner/Picture.png"
 const Design49 = () => {
   return (
     <div className="relative bg-yellow-200 min-h-screen flex items-center p-6">
@@ -42,7 +42,7 @@ const Design49 = () => {
           {/* This would be where the image would go */}
           <div className="relative">
             <img 
-              src="/api/placeholder/400/500" 
+              src={picture}
               alt="Person with flower crown" 
               className="rounded-lg"
             />
