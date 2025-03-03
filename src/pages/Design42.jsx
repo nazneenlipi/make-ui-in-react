@@ -1,5 +1,4 @@
 import React from "react";
-import { BsFillPersonFill } from "react-icons/bs";
 import { FaStar } from "react-icons/fa";
 import imageMain from "../assets/banner/Image.png";
 import image1 from "../assets/banner/1 (1).png";
@@ -10,6 +9,7 @@ import men2 from "../assets/banner/Ellipse 169.png";
 import star from "../assets/banner/Soft Star.png";
 
 const Design42 = () => {
+    const customShadow = "10px 10px 5px 0px rgba(0,0,0,0.75)";
   return (
     <div className="relative bg-white max-w-6xl mx-auto py-12 ">
       <div className="flex flex-col lg:flex-row items-start gap-8">
@@ -40,7 +40,7 @@ const Design42 = () => {
         <div className="relative flex-1">
           <img src={star} alt="Star decoration" className="absolute -left-12 top-0 w-20 h-20" />
           
-          <div className="border-2 rounded-t-full p-4 border-black  absolute right-3 w-[428px] h-full z-0"></div>
+          <div className="border-2 rounded-t-full p-4 border-black  absolute right-6 w-[428px] h-full z-0"></div>
           
           <div className="relative z-10">
             <img src={imageMain} alt="Japanese temple with cherry blossoms" className="rounded-lg w-96 h-[450px] mx-auto my-6" />
@@ -53,7 +53,7 @@ const Design42 = () => {
               </div>
             </div>
             
-            <div className="absolute top-1/3 -right-10 bg-white p-3 rounded-lg shadow-md w-52 bg-opacity-80 border border-black">
+            <div className="absolute top-[20%] -right-10 bg-white p-3 rounded-lg shadow-md w-52 bg-opacity-80 border border-black">
               <div className="flex items-start gap-2">
                 <img src={men2} alt="User" className="w-6 h-6 rounded-full" />
                 <p className="text-base text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -70,20 +70,29 @@ const Design42 = () => {
         </div>
       </div>
           {/* Stats Section */}
-          <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 justify-center text-start gap-4 mt-12">
-        <div className="bg-blue-100 p-3 rounded-md w-36 shadow-md flex flex-row text-start">
-          <p className="text-xl font-bold">351K</p>
+          <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 justify-center text-start gap-24 mt-12">
+          <div 
+          className="bg-blue-100 p-6 rounded-2xl w-72  flex flex-row text-start border border-black"
+          style={{ boxShadow: customShadow }}
+        >
+          <p className="text-xl font-bold mr-2">351K</p>
           <p className="text-xs text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         
-        <div className="bg-yellow-200 p-3 rounded-md w-36 flex flex-row text-start shadow-md">
-          <p className="text-xl font-bold">99%</p>
+        <div 
+          className="bg-yellow-200 p-6 rounded-2xl w-72  flex flex-row text-start border border-black"
+          style={{ boxShadow: customShadow }}
+        >
+          <p className="text-xl font-bold mr-2">99%</p>
           <p className="text-xs text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         
-        <div className="bg-pink-200 p-3 rounded-md w-36 flex flex-row text-start shadow-md">
-          <div className="flex items-center justify-center gap-1">
-            <FaStar className="text-yellow-500" />
+        <div 
+          className="bg-pink-200 p-6 rounded-2xl w-72  flex flex-row text-start border border-black"
+          style={{ boxShadow: customShadow }}
+        >
+          <div className="flex items-center mr-2">
+            <FaStar className="text-yellow-500 mr-1" />
             <p className="text-xl font-bold">4.89</p>
           </div>
           <p className="text-xs text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
