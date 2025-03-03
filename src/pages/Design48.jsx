@@ -1,7 +1,10 @@
 import React from "react";
 import laptop from "../assets/banner/unsplash_muOHbrFGEQY.png";
 import shape from "../assets/banner/Shape decor.png";
-
+import circle from "../assets/banner/font Circle.png"
+import { BsTwitter } from "react-icons/bs";
+import { Facebook, Youtube } from "lucide-react";
+import { PiInstagramLogo } from "react-icons/pi";
 const Design48 = () => {
   return (
     <div className="bg-[#fbd745] text-black flex flex-col items-center justify-center overflow-hidden relative">
@@ -47,10 +50,18 @@ const Design48 = () => {
         {/* Stats Section */}
         <div className="absolute top-4 right-10 transform -translate-x-1/2 flex space-x-6 z-10">
           {["113+", "274K", "179+"].map((stat, index) => (
-            <div key={index} className="border border-black px-6 py-3 rounded-full text-lg font-bold bg-white bg-opacity-80">
+            <div key={index} className="border border-black px-6 py-3 rounded-full text-lg font-bold bg-opacity-80">
               {stat}
             </div>
           ))}
+        </div>
+
+        <img src={circle} alt="" className="absolute bottom-10 right-72 transform -translate-x-1/2 -translate-y-1/2  rounded-full z-10" />
+        <div className="flex gap-3 absolute bottom-6 right-44 transform -translate-x-1/2 -translate-y-1/2  rounded-full z-10">
+            <BsTwitter className="size-8 bg-white rounded-full m-2 p-2"/>
+            <Facebook className="size-8 bg-white rounded-full m-2 p-2"/>
+            <Youtube className="size-8 bg-white rounded-full m-2 p-2"/>
+            <PiInstagramLogo className="size-8 bg-white rounded-full m-2 p-2"/>
         </div>
       </div>
     </div>
