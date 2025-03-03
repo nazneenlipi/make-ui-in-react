@@ -18,7 +18,7 @@ const Design45 = () => {
 
       </div>
       <div>
-        <img src={img2} alt="" />
+        <img src={img2} alt="" className="md:h-[620px] lg:h-auto h-auto" />
       </div>
     </div>
   );
