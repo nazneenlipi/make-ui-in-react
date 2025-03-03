@@ -1,7 +1,7 @@
 import React from "react";
 import laptop from "../assets/banner/unsplash_muOHbrFGEQY.png";
 import shape from "../assets/banner/Shape decor.png";
-import circle from "../assets/banner/font Circle.png"
+import circle from "../assets/banner/font Circle.png";
 import { BsTwitter } from "react-icons/bs";
 import { Facebook, Youtube } from "lucide-react";
 import { PiInstagramLogo } from "react-icons/pi";
@@ -12,9 +12,26 @@ const Design48 = () => {
       <div className="w-full max-w-6xl flex flex-col md:flex-row items-center justify-between py-12">
         {/* Left Section */}
         <div className="flex-1 max-w-lg space-y-6 text-center md:text-left">
-          <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold leading-tight">We are</h1>
-          <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold leading-tight italic border border-black rounded-full text-black px-4 py-4 w-48">digital</h2>
-          <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold leading-tight">studio</h2>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+            We
+            <span className="text-4xl md:text-5xl lg:text-5xl font-normal leading-tight pl-5">
+              are
+            </span>
+          </h1>
+          <a
+            href="#_"
+            class="relative inline-block px-6 py-3 font-medium group"
+          >
+            <span class="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-black rounded-full group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+            <span class="absolute inset-0 w-full h-full bg-[#fbd745] border-2 border-black rounded-full group-hover:bg-black"></span>
+            <span class="relative text-black group-hover:text-white text-4xl md:text-5xl lg:text-4xl font-bold">
+              digital
+            </span>
+          </a>
+
+          <h2 className="text-4xl md:text-5xl lg:text-5xl font-bold leading-tight">
+            studio
+          </h2>
         </div>
 
         {/* Middle Section (Image & Button) */}
@@ -30,7 +47,8 @@ const Design48 = () => {
               <div>
                 <h3 className="text-lg font-bold">Title {item}</h3>
                 <p className="text-gray-800 text-sm md:text-base">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus imperdiet sed id elementum.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Cursus imperdiet sed id elementum.
                 </p>
               </div>
             </div>
@@ -48,20 +66,25 @@ const Design48 = () => {
         </button>
 
         {/* Stats Section */}
-        <div className="absolute top-4 right-10 transform -translate-x-1/2 flex space-x-6 z-10">
-          {["113+", "274K", "179+"].map((stat, index) => (
-            <div key={index} className="border border-black px-6 py-3 rounded-full text-lg font-bold bg-opacity-80">
-              {stat}
-            </div>
-          ))}
-        </div>
+        <div className="absolute top-3 right-10 transform -translate-x-1/2 flex items-center space-x-6 z-10 px-8 py-4 bg-transparent gap-10 rounded-full  before:absolute before:inset-0 before:border-2 before:border-black before:rounded-full before:-translate-x-1 before:-translate-y-1 after:absolute after:inset-0 after:border-2 after:border-black after:rounded-full after:translate-x-1 after:translate-y-1 w-80 h-16">
+  {["113+", "274K", "179+"].map((stat, index) => (
+    <div key={index} className="text-lg font-bold text-black">
+      {stat}
+    </div>
+  ))}
+</div>
 
-        <img src={circle} alt="" className="absolute bottom-10 right-72 transform -translate-x-1/2 -translate-y-1/2  rounded-full z-10" />
+
+        <img
+          src={circle}
+          alt=""
+          className="absolute bottom-10 right-72 transform -translate-x-1/2 -translate-y-1/2  rounded-full z-10"
+        />
         <div className="flex gap-3 absolute bottom-6 right-44 transform -translate-x-1/2 -translate-y-1/2  rounded-full z-10">
-            <BsTwitter className="size-8 bg-white rounded-full m-2 p-2"/>
-            <Facebook className="size-8 bg-white rounded-full m-2 p-2"/>
-            <Youtube className="size-8 bg-white rounded-full m-2 p-2"/>
-            <PiInstagramLogo className="size-8 bg-white rounded-full m-2 p-2"/>
+          <BsTwitter className="size-8 bg-white rounded-full m-2 p-2" />
+          <Facebook className="size-8 bg-white rounded-full m-2 p-2" />
+          <Youtube className="size-8 bg-white rounded-full m-2 p-2" />
+          <PiInstagramLogo className="size-8 bg-white rounded-full m-2 p-2" />
         </div>
       </div>
     </div>
