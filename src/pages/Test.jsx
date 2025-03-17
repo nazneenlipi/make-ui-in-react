@@ -96,12 +96,12 @@ const Test = () => {
         </div>
 
         {/* Tabs */}
-        <div className="flex gap-3 mt-5 mx-5">
+        <div className="flex gap-3 mt-5 mx-5 ">
           <button
             className={`w-24 text-center py-3 text-sm transition-all ${
               activeTab === "description"
-                ? "bg-sky-100 px-3 rounded-md text-indigo-600 font-medium shadow-sm"
-                : "text-gray-600 hover:text-indigo-500"
+                ? "bg-sky-100 px-3 rounded-md text-indigo-600 font-medium shadow-md"
+                : "text-gray-600 hover:text-indigo-500 drop-shadow-2xl border-sky-300 border rounded-lg shadow-md"
             }`}
             onClick={() => setActiveTab("description")}
           >
@@ -110,8 +110,8 @@ const Test = () => {
           <button
             className={`w-24 text-center py-3 text-sm transition-all ${
               activeTab === "video"
-                ? "bg-sky-100 px-3 rounded-md text-indigo-600 font-medium shadow-sm"
-                : "text-gray-600 hover:text-indigo-500"
+               ? "bg-sky-100 px-3 rounded-md text-indigo-600 font-medium shadow-md"
+                : "text-gray-600 hover:text-indigo-500 drop-shadow-2xl border-sky-300 border rounded-lg shadow-md"
             }`}
             onClick={() => setActiveTab("video")}
           >
