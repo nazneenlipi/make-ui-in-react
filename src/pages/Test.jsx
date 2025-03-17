@@ -6,6 +6,7 @@ import {
   X,
   ChevronLeft,
   ChevronRight,
+  SkipForward,
 } from "lucide-react";
 
 const Test = () => {
@@ -35,25 +36,34 @@ const Test = () => {
         </div>
 
         {/* Action Buttons */}
-        <div className="flex justify-end gap-4 p-5 bg-gray-50 border-t">
-          <button className="text-sm px-4 py-2 text-red-600 border border-red-600 rounded-lg bg-red-100 hover:bg-red-600 hover:text-white flex gap-1">
+        <div className="flex justify-between gap-4 p-5 bg-gray-50 border-t relative">
+        <div>
+        <ChevronLeft size={30} className="text-gray-500 cursor-pointer hover:text-gray-800" />
+        </div>
+        <div className="flex gap-5">
+        <button className="text-sm px-4 py-2 text-red-600 border border-red-600 rounded-lg bg-white hover:bg-red-600 hover:text-white flex gap-1">
             <X size={18} /> Reject
           </button>
-          <button className="text-sm px-4 py-2 text-green-600 border border-green-600 rounded-lg bg-green-100 hover:bg-green-600 hover:text-white flex gap-1">
+          <button className="text-sm px-4 py-2 text-green-600 border border-green-600 rounded-lg bg-white hover:bg-green-600 hover:text-white flex gap-1">
             <Check size={18} /> Accept
+          </button> 
+           <button className="text-sm px-4 py-2 text-blue-600 border border-blue-600 rounded-lg bg-white hover:bg-blue-600 hover:text-white flex gap-1">
+        
+            <SkipForward size={18} /> Skip
           </button>
+        </div>
         </div>
 
         {/* Info Section */}
-        <div className="relative bg-gray-100 border-b py-2 px-5 flex justify-between items-center">
-          <ChevronLeft size={30} className="text-gray-500 cursor-pointer hover:text-gray-800" />
+        <div className=" bg-gray-100 border-b py-2 px-5 flex justify-between items-center">
+       
           <div className="grid grid-cols-4 text-center w-full">
             <InfoBlock title="Platform" content="MOBILE" color="blue" />
             <InfoBlock title="Web URL" icon={<Eye size={20} className="text-blue-500" />} />
             <InfoBlock title="Priority" content="High" color="red" />
             <InfoBlock title="Status" content="Active" color="green" />
           </div>
-          <ChevronRight size={30} className="text-gray-500 cursor-pointer hover:text-gray-800" />
+       
         </div>
 
         {/* Tabs */}
