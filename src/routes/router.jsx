@@ -12,6 +12,7 @@ import Design44 from '../pages/Design44';
 import Design48 from '../pages/Design48';
 import Design42 from '../pages/Design42';
 import Test from '../pages/Test';
+import TestLandingPage from '../pages/TestLandingPage';
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
       {
         path: '/test',
         element: <Test></Test>
+      },
+      {
+        path: '/landingPage',
+        element: <TestLandingPage></TestLandingPage>
       },
 
     ]
