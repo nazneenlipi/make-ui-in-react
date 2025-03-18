@@ -45,7 +45,7 @@ export default function TestLandingPage() {
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
                   Collaborative Manual Testing Made Easy
                 </h1>
-                <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+                <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
                   Upload CSV test cases, collaborate in real-time, and streamline UAT workflows
                 </p>
               </div>
@@ -53,7 +53,7 @@ export default function TestLandingPage() {
                 <Button text={"Start Free Trial"} className="h-12 px-8">
                 </Button>
               </div>
-              <div className="flex items-center justify-center space-x-4 text-sm text-muted-foreground">
+              <div className="flex items-center justify-center space-x-4 text-sm text-gray-500">
                 <span>Used by 500+ QA Teams</span>
                 <span className="h-1 w-1 rounded-full bg-border"></span>
                 <span>GDPR Compliant</span>
@@ -72,7 +72,7 @@ export default function TestLandingPage() {
                     <Upload className="h-6 w-6 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold">Import Test Cases in Seconds</h3>
-                  <p className="text-muted-foreground">Drag-and-drop CSV files with preformatted templates</p>
+                  <p className="text-gray-500">Drag-and-drop CSV files with preformatted templates</p>
                 </CardContent>
               </Card>
               <Card className="border-0 shadow-md">
@@ -81,7 +81,7 @@ export default function TestLandingPage() {
                     <Users className="h-6 w-6 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold">Real-Time Co-Editing</h3>
-                  <p className="text-muted-foreground">Track changes, comment inline, and assign tasks</p>
+                  <p className="text-gray-500">Track changes, comment inline, and assign tasks</p>
                 </CardContent>
               </Card>
               <Card className="border-0 shadow-md">
@@ -90,7 +90,7 @@ export default function TestLandingPage() {
                     <CheckSquare className="h-6 w-6 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold">UAT Checklist</h3>
-                  <p className="text-muted-foreground">Interactive checklists with evidence uploads</p>
+                  <p className="text-gray-500">Interactive checklists with evidence uploads</p>
                 </CardContent>
               </Card>
             </div>
@@ -102,7 +102,7 @@ export default function TestLandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl">See How Teams Collaborate</h2>
-              <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+              <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
                 Flexible UI for seamless team coordination
               </p>
               <div className="w-full max-w-4xl overflow-hidden rounded-lg border bg-background shadow-lg">
@@ -112,15 +112,15 @@ export default function TestLandingPage() {
                     <div className="space-y-4">
                       <div className="rounded border p-3">
                         <div className="mb-1 font-medium">Step 1</div>
-                        <div className="text-sm text-muted-foreground">Navigate to login page</div>
+                        <div className="text-sm text-gray-500">Navigate to login page</div>
                       </div>
                       <div className="rounded border p-3">
                         <div className="mb-1 font-medium">Expected Result</div>
-                        <div className="text-sm text-muted-foreground">Login form is displayed</div>
+                        <div className="text-sm text-gray-500">Login form is displayed</div>
                       </div>
                       <div className="rounded border p-3">
                         <div className="mb-1 font-medium">Step 2</div>
-                        <div className="text-sm text-muted-foreground">Enter credentials and click login</div>
+                        <div className="text-sm text-gray-500">Enter credentials and click login</div>
                       </div>
                     </div>
                   </div>
@@ -132,14 +132,14 @@ export default function TestLandingPage() {
                           <div className="h-6 w-6 rounded-full bg-muted"></div>
                           <div className="font-medium">Sarah K.</div>
                         </div>
-                        <div className="text-sm text-muted-foreground">Added screenshot for step 1 verification</div>
+                        <div className="text-sm text-gray-500">Added screenshot for step 1 verification</div>
                       </div>
                       <div className="rounded border p-3">
                         <div className="mb-1 flex items-center gap-2">
                           <div className="h-6 w-6 rounded-full bg-muted"></div>
                           <div className="font-medium">Mike T.</div>
                         </div>
-                        <div className="text-sm text-muted-foreground">Updated expected result for clarity</div>
+                        <div className="text-sm text-gray-500">Updated expected result for clarity</div>
                       </div>
                     </div>
                   </div>
@@ -170,7 +170,7 @@ export default function TestLandingPage() {
 
       <footer className="border-t py-6 md:py-8">
         <div className="container flex flex-col items-center justify-center gap-4 px-4 md:px-6">
-          <div className="text-center text-sm text-muted-foreground">© 2025 TestCollab. All rights reserved.</div>
+          <div className="text-center text-sm text-gray-500">© 2025 TestCollab. All rights reserved.</div>
         </div>
       </footer>
     </div>
