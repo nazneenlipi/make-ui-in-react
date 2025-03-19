@@ -13,6 +13,8 @@ import Design48 from '../pages/Design48';
 import Design42 from '../pages/Design42';
 import Test from '../pages/Test';
 import TestLandingPage from '../pages/TestLandingPage';
+import LandingPage2 from '../pages/LandingPage2';
+// import LandingPage3 from '../pages/LandingPage3';
 
 const router = createBrowserRouter([
   {
@@ -68,6 +70,14 @@ const router = createBrowserRouter([
         path: '/landingPage',
         element: <TestLandingPage></TestLandingPage>
       },
+      {
+        path: '/landingPage2',
+        element: <LandingPage2></LandingPage2>
+      },
+      // {
+      //   path: '/landingPage3',
+      //   element: <LandingPage3></LandingPage3>
+      // },
 
     ]
   },
