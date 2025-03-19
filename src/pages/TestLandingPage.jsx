@@ -6,7 +6,7 @@ import CardContent from "../shared/CardContent";
 
 export default function TestLandingPage() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="flex min-h-screen flex-col ">
       {/* Header */}
       <header className="border-b">
         <div className="container flex h-16 items-center justify-between px-4 md:px-6">
