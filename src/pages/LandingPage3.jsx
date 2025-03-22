@@ -1470,7 +1470,6 @@ export default function Home() {
                 Get Started
               </button>
             </div>
-
             <button className="md:hidden text-foreground" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
               {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
