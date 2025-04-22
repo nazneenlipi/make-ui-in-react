@@ -23,10 +23,8 @@ const Main = () => {
     `;
     document.head.appendChild(script2);
   }, []);
-
   return <RouterProvider router={router} />;
 };
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Main />
