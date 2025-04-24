@@ -1,6 +1,5 @@
 // CardContent.js
 import React from 'react';
-
 const CardContent = ({ children, className }) => {
   return (
     <div className={`text-gray-700 ${className}`}>
@@ -8,5 +7,4 @@ const CardContent = ({ children, className }) => {
     </div>
   );
 };
-
 export default CardContent;
