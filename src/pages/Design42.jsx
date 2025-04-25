@@ -52,7 +52,6 @@ const Design42 = () => {
               alt="Japanese temple with cherry blossoms"
               className="rounded-lg w-full max-w-xs sm:max-w-sm sm:w-[350px] h-auto sm:h-[450px] mx-auto my-6"
             />
-
             {/* Floating Comments */}
             <div className="absolute lg:top-60 md:top-40 top-52 lg:-left-24 md:-left-24 -left-16 bg-white bg-opacity-80 p-2 sm:p-3 rounded-lg shadow-md w-40 sm:w-52 border border-black">
               <div className="flex items-center justify-center gap-1 sm:gap-2">
