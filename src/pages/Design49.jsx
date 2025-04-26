@@ -1,6 +1,5 @@
 import React from 'react';
 import picture from "../assets/banner/Picture.png";
-
 const Design49 = () => {
   return (
     <div className="relative bg-yellow-200 min-h-screen flex items-center justify-center">
